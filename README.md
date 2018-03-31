@@ -17,3 +17,38 @@ nodejs MD5
 ` yarn add siwi-md5`
 
 # Example
+
+## md5
+
+<table>
+    <tr>
+        <th>参数</th>
+        <th>类型</th>
+        <th>是否必选</th>
+        <th>含义</th>
+    </tr>
+    <tr>
+        <th>data</th>
+        <th>String | Buffer | Object</th>
+        <th>是</th>
+        <th>加密值 字符串或者对象 对象会自动进行 JSON.stringify() </th>
+    </tr>
+</table>
+
+```js
+const md5 = require('siwi-md5')
+
+class Example {
+    constructor() {
+        this.init()
+    }
+    async init () {
+        const res = await md5.sign('123')
+        console.log(res)
+    }
+}
+
+module.exports = new Example()
+```
+
+> 输出:202cb962ac59075b964b07152d234b70
