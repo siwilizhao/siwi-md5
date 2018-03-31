@@ -1,0 +1,38 @@
+{
+  "name": "siwi-md5",
+  "version": "1.0.0",
+  "description": "nodejs MD5",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "mocha": "./node_modules/.bin/mocha -u bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/siwi-md5.git"
+  },
+  "keywords": [
+    "siwi-md5",
+    "MD5",
+    "加密",
+    "crypto",
+    "siwi",
+    "siwilizhao"
+  ],
+  "author": "siwi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-md5/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-md5#readme",
+  "engines": {
+    "node": ">= 8.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
