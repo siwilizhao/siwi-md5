@@ -1,6 +1,6 @@
 {
   "name": "siwi-md5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodejs MD5",
   "main": "index.js",
   "directories": {
